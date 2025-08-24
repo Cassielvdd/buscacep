@@ -2,6 +2,7 @@
 import "../src/main.css";
 import "../src/style.css";
 import Button from "./components/ui/button/Button.vue";
+import { Analytics } from "@vercel/analytics/next";
 
 import {
   Dialog,
@@ -144,6 +145,7 @@ function copiarTexto() {
       >
     </p>
   </div>
+  <Analytics />
 </template>
 
 <style scoped>
