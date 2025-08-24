@@ -44,7 +44,10 @@ function copiarTexto() {
       </h2>
     </div>
     <div>
-      <a href=""
+      <a
+        href="https://github.com/Cassielvdd/buscacep"
+        target="_blank"
+        rel="noopener noreferrer"
         ><font-awesome-icon
           :icon="['fab', 'github']"
           class="text-white text-2xl hover:text-[#39FF14] cursor-pointer transition duration-300"
